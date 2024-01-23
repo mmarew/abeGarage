@@ -3,7 +3,7 @@ const dbConfig = {
   host: "localhost",
   user: "root",
   password: "",
-  database: "mydb",
+  database: "AbeGaragePMA",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
