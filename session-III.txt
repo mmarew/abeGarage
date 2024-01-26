@@ -369,7 +369,7 @@
 
         - Generate SSH Key for github and add it 
           sudo apt-get update  (If not done already)
-          ssh-keygen -t ed25519 -C "support@evangadi.com" 
+          ssh-keygen -t ed25519 -C "mmarew@gmail.com" 
           - Generating public/private ed25519 key pair. 
           - Enter file in which to save the key (/home/ubuntu/.ssh/id_ed25519):
           - Enter passphrase (empty for no passphrase):AbeGaragePMA
@@ -396,10 +396,10 @@
       - You can also change the root password like this 
         Log in to MySql
           - sudo mysql  
-          alter user 'root'@'localhost' identified with mysql_native_password by 'AbeGaragePMA';
+          alter user 'root'@'localhost' identified with mysql_native_password by '@1AbeGaragePMA';
           (You should see Query OK, 0 rows affected (0.01 sec)) 
           - u = root 
-          - p = AbeGaragePMA 
+          - p = @1AbeGaragePMA 
         exit 
       - Log in to MySql
         mysql -u root -p 
