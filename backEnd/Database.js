@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const dbConfig = {
   // host: process.env.host,
-  host: "3.15.16.89",
+  host: "host",
   // user: process.env.user,
   user: "demo1",
   // password: process.env.password,
