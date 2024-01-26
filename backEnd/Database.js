@@ -3,16 +3,17 @@ require("dotenv").config();
 
 const dbConfig = {
   // host: process.env.host,
-  host: "host",
+  host: "localhost",
   // user: process.env.user,
   user: "user1",
   // password: process.env.password,
-  password: "QBFpcI6_aoJ/G(-Z",
+  password: "wB3F*10o-0wCXEl7",
   // database: process.env.database,
   database: "demo1",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
+  port: 3306,
 };
 let pool = mysql.createPool(dbConfig);
 pool.getConnection((error, connection) => {
