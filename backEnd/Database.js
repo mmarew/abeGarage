@@ -7,7 +7,7 @@ const dbConfig = {
   // user: process.env.user,
   user: "demo1",
   // password: process.env.password,
-  password: "@1AbeGaragePMA",
+  password: "+M(/BirE9w9]v(hqc",
   // database: process.env.database,
   database: "demo1",
   waitForConnections: true,
